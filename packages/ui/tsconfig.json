@@ -3,7 +3,17 @@
     "compilerOptions": {
         "outDir": "./dist",
         "rootDir": "src",
-        "declaration": true
+        "declaration": true,
+        "jsx": "preserve",
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext"
+        ],
+        "module": "esnext",
+        "moduleResolution": "node",
+        "allowJs": true,
+        "isolatedModules": true
     },
     "include": [
         "src/**/*"
