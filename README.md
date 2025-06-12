@@ -1,34 +1,25 @@
-# diBoaS (“dee-boas”)
+# diBoaS
 
-A platform democratizing wealth-building opportunities.
+diBoaS (“dee-boas”) is a platform democratizing wealth-building opportunities by seamlessly integrating Traditional Finance (TradFi) and Decentralized Finance (DeFi). It offers a secure, user-friendly ecosystem for retail and institutional users to manage, grow, and monetize financial assets.
 
-## 📖 Description
+## Project Overview
+diBoaS aims to onboard 5M users by 2029, managing $18B in assets. Phase 0 delivers a test version with a landing page (`www.diboas.com`), test app (`app-test.diboas.com`), documentation (`docs.diboas.com`), and learn center (`learn.diboas.com`). Phase 1 introduces 1-Click transactions, financial tutorials, and a custodial wallet.
 
-diBoaS is a zero-budget, Phase 0/1-ready monorepo built with Next.js (React + TypeScript), Fastify, Turborepo, and more. It includes four subdomains:
+## Technology Stack
+- **Frontend**: Next.js v14, React, TypeScript, Tailwind CSS, Radix UI, Framer Motion
+- **Backend**: Node.js, Fastify v4, PostgreSQL (Supabase), Redis (Upstash)
+- **Blockchain**: Magic Labs (Auth/Wallet), 1inch/Jupiter (Swaps), Ramp/MoonPay (On/Off-ramp, KYC)
+- **Hosting**: Vercel (frontend), Fly.io (backend), Cloudflare (CDN)
+- **DevOps**: Turborepo, GitHub Actions, Terraform, Jest, Cypress
 
-- **www.diboas.com** — Landing page & waitlist
-- **app-test.diboas.com** — Phase 0 mock/test build (signup, swap, etc.)
-- **docs.diboas.com** — Static documentation
-- **learn.diboas.com** — YouTube-linked learning center
+## Getting Started
+### Prerequisites
+- Node.js v18.x
+- npm v9.x or yarn v1.x
+- Git
 
-## 🏗️ Tech Stack
-
-- **Frontend**: Next.js v14, Tailwind CSS, Radix UI, shadcn/ui, React Query, Zustand  
-- **Backend**: Node.js LTS, Fastify v4, Zod, JWT, Magic Auth  
-- **Monorepo**: Turborepo, TypeScript project refs  
-- **DB & Cache**: Supabase (Postgres), Upstash (Redis)  
-- **Infra**: Vercel, Fly.io (Phase 0), Terraform  
-- **CI/CD**: GitHub Actions  
-- **Testing**: Jest, React Testing Library, Cypress, axe-core  
-
-## 🚀 Getting Started
-
-```bash
-# Clone & install
-git clone git@github.com:bribeirobr25/diBoaS.git
-cd diBoaS
-git checkout phase-0
-npm install
-
-# Start all apps in dev mode
-npm run dev
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/bribeirobr25/diBoaS.git
+   cd diBoaS
