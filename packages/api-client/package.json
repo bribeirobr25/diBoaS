@@ -1,0 +1,19 @@
+{
+    "name": "@diboas/api-client",
+    "version": "0.1.0",
+    "main": "src/index.ts",
+    "types": "src/index.ts",
+    "private": true,
+    "scripts": {
+        "build": "tsc",
+        "lint": "eslint . --ext .ts,.tsx"
+    },
+    "dependencies": {
+        "react": "^18.3.1",
+        "@tanstack/react-query": "^5.59.0"
+    },
+    "devDependencies": {
+        "@types/react": "^18.3.11",
+        "typescript": "^5.5.4"
+    }
+}
